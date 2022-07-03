@@ -31,7 +31,7 @@ public class TreeSetExample3 {
 		} // for
 		
 		System.out.println("\n[f부터 시작하는 단어 검색]");
-		rangeSet = treeSet.tailSet("f", false);
+		rangeSet = treeSet.tailSet("f", true);
 		
 		for(String word : rangeSet) {
 			System.out.print(word + " ");
