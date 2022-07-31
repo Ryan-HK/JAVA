@@ -11,12 +11,7 @@ public interface ShipFactory {
 		return ship;
 	}
 	
-	
-	
-	private void sendEmailTo(String email, Ship ship) {
-		System.out.println(ship.getName() + " 다 만들었습니다.");
-	}
-
+	void sendEmailTo(String email, Ship ship);
 
 	// 하위 클래스가 반드시 정의 해야한다.
 	Ship createShip();
